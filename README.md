@@ -13,7 +13,7 @@
 ## 🏗 システム構成
 完全なAWSサーバーレスアーキテクチャを採用しています。
 生成AI（LLM）特有のレスポンスタイムを考慮し、API Gatewayの29秒タイムアウト制限を回避するための最適な通信経路を設計しています。
-<img src="./images/architecture.jpg" width="600">
+<img src="./images/architecture.png" width="600">
 
 - **フロントエンド**: [※React / Next.js / Vue など使用した技術を記載] (ホスティング: Amazon S3 + CloudFront)
 - **バックエンド**: AWS Lambda
@@ -29,13 +29,10 @@
 ## 📷 画面イメージ
 
 ### ログイン画面
-星空をテーマにしたUIで、Cognitoと連携した認証を行います。
-<img src="./images/login.jpg" width="600">
+<img src="./images/login.png" width="600">
 
 ### ダッシュボード画面
-ログイン後のポータル画面。各種開発ツールへのクイックアクセスが可能です。
-<img src="./images/dashboard.jpg" width="600">
+<img src="./images/dashboard.png" width="600">
 
 ### チャット（資料確認）画面
-Bedrock (Claude 3) と連携し、専門的な手順のまとめや技術的な質疑応答をスムーズに行えます。
-<img src="./images/chat.jpg" width="600">
+<img src="./images/chat.png" width="600">
