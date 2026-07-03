@@ -1,0 +1,45 @@
+# ログファイルが格納されるディレクトリを無視します。
+logs
+# 拡張子が.logのすべてのファイルを無視します。
+*.log
+# npmパッケージマネージャーのデバッグログを無視します。
+npm-debug.log*
+# yarnパッケージマネージャーのデバッグログを無視します。
+yarn-debug.log*
+# yarnパッケージマネージャーのエラーログを無視します。
+yarn-error.log*
+# pnpmパッケージマネージャーのデバッグログを無視します。
+pnpm-debug.log*
+# lernaのデバッグログを無視します。
+lerna-debug.log*
+
+# ダウンロードされたライブラリ群のディレクトリを無視します。
+node_modules
+# 本番用にビルドされた出力ディレクトリを無視します。
+dist
+# サーバーサイドレンダリング用のビルド出力ディレクトリを無視します。
+dist-ssr
+# ローカル環境固有の設定ファイルを無視します。
+*.local
+
+# 機密情報を含む環境変数ファイルをGitの管理から確実に除外します。
+.env
+
+# VS Codeの設定ディレクトリを無視します。
+.vscode/*
+# チームで共有するVS Codeの拡張機能リストは例外としてGit管理に含めます。
+!.vscode/extensions.json
+# IntelliJ IDEA系のエディタ設定ディレクトリを無視します。
+.idea
+# macOSが自動生成するフォルダのメタデータファイルを無視します。
+.DS_Store
+# Visual Studioのユーザー固有オプションファイルを無視します。
+*.suo
+# Visual StudioのNode.js用プロジェクトファイルを無視します。
+*.ntvs*
+# Visual StudioのNode.js用プロジェクトファイルを無視します。
+*.njsproj
+# Visual Studioのソリューションファイルを無視します。
+*.sln
+# Vimエディタの編集中に作成されるスワップファイルを無視します。
+*.sw?

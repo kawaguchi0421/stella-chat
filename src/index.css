@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* カスタムテーマ（星空カラー）を定義するブロックを開始します */
+@theme {
+  
+  /* 宇宙の背景色（space-dark）を変数として設定します */
+  --color-space-dark: #0B0D17;
+  
+  /* 星の輝き（starlight-gold）を変数として設定します */
+  --color-starlight-gold: #FACC15;
+  
+  /* 月の光（moon-silver）を変数として設定します */
+  --color-moon-silver: #E2E8F0;
+}
